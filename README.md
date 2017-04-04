@@ -3,6 +3,13 @@ rtl8188eu
 
 Repository for the stand-alone RTL8188EU driver.
 
+What's New
+---------
+Added vendor/hardware ID of new TP-Link TL-WN722N v2.0 (2357:010c)
+Re-enabled hostapd functionality in defconfig
+Fixed hlr_auc_gw compilation error (missing eloop.o in HOBJS in Makefile)
+
+
 Compiling & Building
 ---------
 ### Dependencies
