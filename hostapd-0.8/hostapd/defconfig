@@ -52,53 +52,53 @@ CONFIG_DRIVER_RTW=y
 CONFIG_EAP=y
 
 # EAP-MD5 for the integrated EAP server
-#CONFIG_EAP_MD5=y
+CONFIG_EAP_MD5=y
 
 # EAP-TLS for the integrated EAP server
-#CONFIG_EAP_TLS=y
+CONFIG_EAP_TLS=y
 
 # EAP-MSCHAPv2 for the integrated EAP server
-#CONFIG_EAP_MSCHAPV2=y
+CONFIG_EAP_MSCHAPV2=y
 
 # EAP-PEAP for the integrated EAP server
-#CONFIG_EAP_PEAP=y
+CONFIG_EAP_PEAP=y
 
 # EAP-GTC for the integrated EAP server
-#CONFIG_EAP_GTC=y
+CONFIG_EAP_GTC=y
 
 # EAP-TTLS for the integrated EAP server
-#CONFIG_EAP_TTLS=y
+CONFIG_EAP_TTLS=y
 
 # EAP-SIM for the integrated EAP server
-#CONFIG_EAP_SIM=y
+CONFIG_EAP_SIM=y
 
 # EAP-AKA for the integrated EAP server
-#CONFIG_EAP_AKA=y
+CONFIG_EAP_AKA=y
 
 # EAP-AKA' for the integrated EAP server
 # This requires CONFIG_EAP_AKA to be enabled, too.
-#CONFIG_EAP_AKA_PRIME=y
+CONFIG_EAP_AKA_PRIME=y
 
 # EAP-PAX for the integrated EAP server
-#CONFIG_EAP_PAX=y
+CONFIG_EAP_PAX=y
 
 # EAP-PSK for the integrated EAP server (this is _not_ needed for WPA-PSK)
-#CONFIG_EAP_PSK=y
+CONFIG_EAP_PSK=y
 
 # EAP-SAKE for the integrated EAP server
-#CONFIG_EAP_SAKE=y
+CONFIG_EAP_SAKE=y
 
 # EAP-GPSK for the integrated EAP server
-#CONFIG_EAP_GPSK=y
+CONFIG_EAP_GPSK=y
 # Include support for optional SHA256 cipher suite in EAP-GPSK
-#CONFIG_EAP_GPSK_SHA256=y
+CONFIG_EAP_GPSK_SHA256=y
 
 # EAP-FAST for the integrated EAP server
 # Note: Default OpenSSL package does not include support for all the
 # functionality needed for EAP-FAST. If EAP-FAST is enabled with OpenSSL,
 # the OpenSSL library must be patched (openssl-0.9.9-session-ticket.patch)
 # to add the needed functions.
-#CONFIG_EAP_FAST=y
+CONFIG_EAP_FAST=y
 
 # Wi-Fi Protected Setup (WPS)
 CONFIG_WPS=y
@@ -122,7 +122,7 @@ CONFIG_INTERNAL_LIBTOMMATH=y
 
 # RADIUS authentication server. This provides access to the integrated EAP
 # server from external hosts using RADIUS.
-#CONFIG_RADIUS_SERVER=y
+CONFIG_RADIUS_SERVER=y
 
 # Build IPv6 support for RADIUS operations
 #CONFIG_IPV6=y
